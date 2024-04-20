@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  input[type="text"],
+  button {
+    margin: 10px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 0.4em;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  #ui {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+  
+  #lookupBtn {
+    width: 10em;
+    color: whitesmoke;
+    background-color: black;
+    height: auto;
+    border-radius: 0.4em;
+  }
+  
+  #pincodeInput {
+    width: calc(100% - 28px); /* Adjust width to account for padding and border */
+  }
+  
+  #results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: start;
+    justify-content: flex-start; /* Align items to the start */
+  }
+  #results>p,div{
+    width:100%;
+  }
+  
+  .result-item {
+    width: calc(50% - 10px); /* Make items take half the container width with spacing */
+    margin-bottom: 10px; /* Add bottom margin for spacing */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Specific modification based on your request */
+  .result-info {
+    width: 100%; /* Take full width of container */
+    text-align: left; /* Align text to the left */
+    margin-bottom: 10px; /* Add bottom margin for spacing */
+  }
+  

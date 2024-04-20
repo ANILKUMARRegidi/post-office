@@ -7,15 +7,18 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="root">
         <h1>Pincode Lookup</h1>
         <input type="text" id="pincodeInput" placeholder="Enter 6-digit Pincode">
         <button id="lookupBtn">Lookup</button>
         <input type="text" id="filterInput" placeholder="Filter by Post Office Name">
         <div id="loader" class="hidden"></div>
-        <div id="results"></div>
+        <div id="results">
+            <div class="result-info" id="resultInfo">
+                <!-- Result Info will be dynamically inserted here -->
+            </div>
+        </div>
     </div>
-
-    <script src="script.js"></script>
+  
 </body>
 </html>
