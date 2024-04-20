@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/post-office/static/css/main.76388d86.css",
+    "main.js": "/post-office/static/js/main.51eea84f.js",
+    "static/js/453.f46ac0b0.chunk.js": "/post-office/static/js/453.f46ac0b0.chunk.js",
+    "index.html": "/post-office/index.html",
+    "main.76388d86.css.map": "/post-office/static/css/main.76388d86.css.map",
+    "main.51eea84f.js.map": "/post-office/static/js/main.51eea84f.js.map",
+    "453.f46ac0b0.chunk.js.map": "/post-office/static/js/453.f46ac0b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76388d86.css",
+    "static/js/main.51eea84f.js"
+  ]
+}
